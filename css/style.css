@@ -1,0 +1,71 @@
+/*base classes*/
+.inblock{
+	display: inline-block;
+}
+.float-left{
+	float: left;
+}
+.float-right{
+	float: right;
+}
+.clear{
+	clear: both;
+}
+/*end base classes*/
+
+/*header*/
+.green-box{
+	background-color: #22B573;
+}
+.head-1{
+	padding: 46px 56px 0 0;
+}
+.logo{
+	width: 200px;
+	height: 151px;
+}
+.nav-a{
+	text-transform: uppercase;
+	font-family: 'Myriad Pro';
+	color: white;
+	font-size: 48px;
+	margin-right: 45px;
+}
+/*end header*/
+
+/*mid*/
+.y-box{
+	width: 566px;
+	background-color: #FCEE21;
+	padding: 23px;
+}
+.main-box::after{
+	content: '';
+	clear: both;
+	display: block;
+}
+.main-box{
+	padding: 47px 0 80px 0;
+	font-size: 14px;
+	font-family: 'Myriad Pro';
+	font-weight: bold;
+	line-height: 15px;
+	text-transform: uppercase;
+}
+.container{
+	width: 1152px;
+	margin: 0 auto;
+}
+.img1{
+	margin: 0 0 48px 23px;
+}
+.img2{
+	margin: 0 22px 18px 0;
+}
+.text1{
+	margin-top: 20px;
+}
+span{
+	color: #006837;
+}
+/*end mid*/
